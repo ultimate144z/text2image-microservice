@@ -1,0 +1,11 @@
+grpcio
+grpcio-tools
+fastapi
+uvicorn
+diffusers
+transformers
+accelerate
+safetensors
+scipy
+gradio
+torch

@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+service Text2ImageService {
+  rpc GenerateImage (ImageRequest) returns (ImageResponse);
+}
+
+message ImageRequest {
+  string prompt = 1;
+}
+
+message ImageResponse {
+  string message = 1;
+}

@@ -1,0 +1,20 @@
+Go to root of the folder:
+e.g:
+C:\Users\HP\Desktop\fresh_test\Untitled Folder 13
+
+and then make sure three separate command prompts are opened.
+
+Below are commands:
+
+1. python -m grpc_service.server
+
+
+2. uvicorn fastapi_bridge:app --reload
+-> check http://127.0.0.1:8000/docs
+
+
+3. python frontend_gradio.py
+
+For Docker, first install it on your system and then go to root like before but this time run:
+
+docker build -t text2image-microservice .
